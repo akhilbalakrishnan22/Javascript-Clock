@@ -1,16 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Api Digital clock</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=0rbitron">
+    <title>Javascript Clock</title>
     <link rel="stylesheet" href="style.css" type="text/css">
-    <script src="clock.js"></script>
 </head>
-<body>
 
-    <div id="clock"></div>
-    
+<body>
+    <div class="clock">
+        <div class="clock__strokes">
+            <div class="clock__strokes-hours" id="strokesHours"></div>
+            <div class="clock__strokes-minutes" id="strokesMinutes"></div>
+        </div>
+
+        <div class="clock__pointers">
+            <div class="clock__pointers-hours" id="hours"></div>
+            <div class="clock__pointers-minutes" id="minutes"></div>
+            <div class="clock__pointers-seconds" id="seconds"></div>
+            <div class="clock__pointers-dot"></div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
 </body>
+
 </html>
