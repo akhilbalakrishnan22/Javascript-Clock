@@ -50,7 +50,6 @@ body {
 
 .clock__strokes-hours span::before {
     content: "";
-    background-color: #b6bbc5;
     background-color: #848484;
     height: 24px;
     height: clamp(14px, 4.23vw, 24px);

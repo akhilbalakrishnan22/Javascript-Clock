@@ -48,8 +48,7 @@ body {
 
 .clock__strokes-hours span::before {
     content: "";
-    background-color: #b6bbc5;
-    background-color: #848484;
+    background-color: #ffffff;
     height: 24px;
     height: clamp(14px, 4.23vw, 24px);
     width: 5px;
@@ -61,7 +60,7 @@ body {
     transform: translateX(-50%);
 }
 
-.clock__strokes-minutes span:before {
+/* .clock__strokes-minutes span:before {
     content: "";
     background-color: #b6bbc5;
     height: 12px;
@@ -73,7 +72,7 @@ body {
     top: 10px;
     left: 50%;
     transform: translateX(-50%);
-}
+} */
 
 .clock__pointers-hours,
 .clock__pointers-minutes,
